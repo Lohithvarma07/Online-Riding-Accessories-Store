@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1f242d;
+            color: white;
+        }
+        .container {
+            width: 300px;
+            padding: 16px;
+            background-color:#1f242d;
+            margin:auto;
+            margin-top: 200px;
+            border-radius: 4px;
+        }
+        input[type=text], input[type=password] ,input[type=gmail]{
+            width: 100%;
+            padding: 10px ;
+            margin:auto;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px ;
+            margin-top: 20px ;
+            width: 100%;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    
+        h1{color: white;}
+
+        header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+    
+    </style>
+    <script src="log.js"></script>
+
+</head>
+<body>
+    <header>
+        <a href="html.html#home" class="logo">Gear Heads</a>
+        </header>
+<center>
+<div class="container">
+    <h1>Login</h1>
+    <form name="myForm" action="" onsubmit="saveData(); return false;">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br><br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br><br>
+        <label for="gmail"><b>Gmail</b></label>
+        <input type="text" placeholder="Enter Gmail" name="gmail" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</center>
+<footer>
+    <center>
+            <br><br><br>
+            Mon-Fri | 11.00 AM to 4.30 PM
+            <br>
+            <b>© 2024,Gear Heads</b>
+          </center>
+        </footer>
+
+</body>
+</html>
